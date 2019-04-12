@@ -1,6 +1,3 @@
-//to compile: g++ -g detect_face_eye.cpp -o main `pkg-config --cflags --libs opencv`
-//to run: ./main
-
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/objdetect/objdetect.hpp>
 #include <opencv2/imgproc.hpp>
