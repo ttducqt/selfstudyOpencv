@@ -4,7 +4,7 @@
   - Tools/Packages: pkg-config, g++, c++11
   - Libs: opencv4
 ## 1. haar_face_detector.cpp <br />
-- Compile: ```g++ -std=c++11 haar_face_detector -o main `pkg-config --cflags --libs opencv4` ```<br />
+- Compile and build: ```g++ -std=c++11 haar_face_detector -o main `pkg-config --cflags --libs opencv4` ```<br />
 - Run in workspace:
   - Detect in video: ```./main {dir of video}```
   - Detect camera realtime: ```./main```
@@ -16,7 +16,7 @@
   - Show the result                 
 ![](https://raw.githubusercontent.com/ttducqt/selfstudyOpencv/master/resource/face.png)
 ## 2. simple_motion_detector:
-  - Compile: ```g++ -std=c++11 simple_motion_detector -o main `pkg-config --cflags --libs opencv4` ```<br />
+  - Compile and build: ```g++ -std=c++11 simple_motion_detector -o main `pkg-config --cflags --libs opencv4` ```<br />
   - Run in work space:
     - Detect in video: ```./main {dir of video}```
   - How code work:
